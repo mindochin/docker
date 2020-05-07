@@ -1,12 +1,12 @@
 # docker
 docker scripts
 
-stop all containers
+### stop all containers
 ```
 docker stop $(docker ps -a -q)
 ```
 
-delete all containers
+### delete all containers
 ```
 docker rm $(docker ps -a -q)
 ```
